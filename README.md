@@ -88,6 +88,4 @@ report.md                   Technical analysis
 requirements.txt            Dependencies
 ```
 
-## AI-tool disclosure
 
-ChatGPT was used for assistance with code drafting, debugging, experiment organization, and initial documentation. The team is responsible for reviewing, executing, validating, and explaining all submitted code and results. No claim of hardware execution is made: these benchmarks use Qiskit Aer simulation.
