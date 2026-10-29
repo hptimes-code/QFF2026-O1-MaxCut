@@ -1,0 +1,2 @@
+vertices,edges,exact_optimum,optimal_states,random_mean_cut,random_approximation_ratio,random_p_opt
+6,9,22.0,2,13.5,0.6136363636363636,0.03125
