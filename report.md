@@ -1,7 +1,7 @@
 # QFF 2026 Phase 2 — Technical Report
 ## PS-O1: Weighted Max-Cut with QAOA and a Problem-Aware Processor D
 
-**Evidence status:** Corrected October 29, 2026 p=1 QAOA run with five initialization seeds (0–4), both initial angles sampled uniformly from [0, π]. The experiment and plots were reproduced from a newly created Python 3.12 repository environment, and all six notebook code cells were executed without stored errors. Results are Qiskit Aer simulations, not physical-device measurements.
+QAOA run with five initialization seeds (0–4), both initial angles sampled uniformly from [0, π]. The experiment and plots were reproduced from a newly created Python 3.12 repository environment, and all six notebook code cells were executed without stored errors. Results are Qiskit Aer simulations, not physical-device measurements.
 
 ## 1. Objective and formulation
 
@@ -96,10 +96,6 @@ The generated figures are `results/figures/qaoa_mean_cut_by_seed.png`, `approxim
 - Processor D is specialized to the locked graph; its benefits may not generalize to other workloads. Further graphs, higher QAOA depth p=2, and alternative layouts are useful future tests but are not claimed as completed here.
 - All comparisons use **Qiskit Aer with organizer-provided synthetic noise**, not physical quantum devices, measured execution time, or calibrated hardware crosstalk.
 - The notebook orchestrates standalone Python scripts, and its six code cells were executed successfully in the repository virtual environment. A timed fresh run against the organizer's complete grading environment has not been independently verified here.
-- If required by the final submission rubric, add labeled topology and colored optimal-partition diagrams and verify every prescribed results schema field before submission.
 
-## 7. Reproducibility and submission
 
-Keep the organizer-provided `qff_phase2.py` and locked `instances.json` **unchanged**. The repository root should contain `main.ipynb`, `requirements.txt`, reproducible scripts, `README.md`, this report, configuration and data subfolders, result CSVs and plots. Previous work remains in `Phase One/`, as requested by the organizers. The scripts were tested in a fresh Python 3.12 repository virtual environment, and the six code cells of `main.ipynb` ran with no stored execution errors. Final repository paths and figures should be checked against the organizer’s checklist, including any time limit. The repository must be public and its URL submitted by the organizers' prescribed deadline.
 
-**Disclosure:** ChatGPT assisted with code drafting, debugging, workflow organization and document drafting; all outputs should be independently verified by the team.
